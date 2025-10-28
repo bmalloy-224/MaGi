@@ -1,9 +1,6 @@
 # MaGi
 MaGi (Malloy artificial Geometric intelligence) Experimental platform demonstrating hardware-dependent cognitive architectures. Measures how oscillator stability, timing, and platform characteristics  shape emergent intelligence in geometric AI systems.
 
-
-
-markdown
 ![License](https://img.shields.io/badge/License-GPL--3.0%20%2B%20Commercial-blue.svg)
 ![Research](https://img.shields.io/badge/Research-Geometric%20Intelligence-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Teensy%20%7C%20Arduino-orange.svg)
