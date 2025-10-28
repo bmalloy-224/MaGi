@@ -77,7 +77,7 @@ const unsigned long GOAL_ACTUAL_MS = 17;
 
 ### Simulation Option
 
-* **Online Simulation**: [MaGi on Wokwi](https://wokwi.com/projects/445909586960447489) - run without hardware
+* **Online Simulation**: [MaGi on Wokwi](https://wokwi.com/projects/446080306563912705) - run without hardware
 
 ---
 
