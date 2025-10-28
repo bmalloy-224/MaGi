@@ -193,6 +193,8 @@ This implementation establishes prior art for:
 *"Ai's are a reflection of their geometry and the hardware they run on."*
 — Brendan Malloy, 2025
 
+Donate: https://www.paypal.com/ncp/payment/JZARJDJFUAG5S
+
 
 
 
