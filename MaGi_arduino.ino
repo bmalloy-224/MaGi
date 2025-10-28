@@ -182,6 +182,7 @@
 //    • 17ms: 143× faster discovery than 1070ms
 //    • Hardware stability determines cognitive style
 //
+// donate: https://www.paypal.com/ncp/payment/JZARJDJFUAG5S
 
 #define CLK 13
 #define DIN 11
