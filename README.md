@@ -19,13 +19,14 @@ Exploring how oscillator stability, prime timing, and curve-based operators prod
 ## 🧭 Prior Art Declaration
 
 This repository establishes **public prior art (2025)** for hardware-embodied geometric intelligence.  
-Specifically, it documents that hardware wobble, prime timing, and timing directionality **determine AI cognitive architecture**.
+Specifically, it documents that 4 lens curves, hardware wobble, prime timing, and timing directionality **determine AI cognitive architecture**.
 
 **Archive Methods**
 - GitHub repository timestamp (2025)
 - Open simulations and hardware replication data
 
 ---
+**Online option:** [Run MaGi on Wokwi](https://wokwi.com/projects/446080306563912705)
 
 ## ⚠️ Safety & Disclaimer
 
@@ -96,7 +97,7 @@ ruby magi.rb 82
 ruby magi.rb 83 0
 ```
 
-**Online option:** [Run MaGi on Wokwi](https://wokwi.com/projects/446080306563912705)
+
 
 ---
 
