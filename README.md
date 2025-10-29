@@ -1,200 +1,255 @@
-# MaGi
-MaGi (Malloy artificial Geometric intelligence) Experimental platform demonstrating hardware-dependent cognitive architectures. Measures how oscillator stability, timing, and platform characteristics  shape emergent intelligence in geometric AI systems.
+
+
+````markdown
+# 🌀 MaGi — Malloy Artificial Geometric Intelligence
+
+**Hardware-Embodied Geometric Intelligence Platform**  
+Exploring how oscillator stability, prime timing, and curve-based operators produce emergent cognition across hardware systems.
 
 ![License](https://img.shields.io/badge/License-GPL--3.0%20%2B%20Commercial-blue.svg)
 ![Research](https://img.shields.io/badge/Research-Geometric%20Intelligence-green.svg)
-![Platform](https://img.shields.io/badge/Platform-Teensy%20%7C%20Arduino-orange.svg)
-![Status](https://img.shields.io/badge/Status-Experimental%20Research-red.svg)
+![Platform](https://img.shields.io/badge/Platform-Teensy%20%7C%20Arduino%20%7C%20Ruby-orange.svg)
+![Status](https://img.shields.io/badge/Status-Experimental-red.svg)
 
-# MaGi: Hardware-Embodied Geometric Intelligence
-
-**Discovering How Physical Implementation Determines AI Cognitive Architecture**
-
-> **Groundbreaking Finding**: Identical geometric intelligence code produces fundamentally different cognitive styles across hardware platforms. Hardware doesn't just affect performance — it determines *how AI thinks*.
+> **Key Insight:** Identical geometric-intelligence code generates *different cognitive styles* depending on hardware wobble, timing precision, and prime resonance.  
+> Hardware timing doesn’t just change speed — it changes **how AI thinks**.
 
 ---
 
-## 🏛️ Prior Art Declaration
+## 🧭 Prior Art Declaration
 
-**This implementation establishes public prior art for hardware-embodied geometric intelligence as of 2025.** The discoveries documented here - particularly that physical hardware determines AI cognitive architecture - are now part of the public domain for research and innovation.
+This repository establishes **public prior art (2025)** for hardware-embodied geometric intelligence.  
+Specifically, it documents that hardware wobble, prime timing, and timing directionality **determine AI cognitive architecture**.
 
-Archive Methods:
-- GitHub Repository: This public repository
-- Timestamp: Initial commit 2025
-- Public Demonstration: Available via simulation and hardware replication
+**Archive Methods**
+- GitHub repository timestamp (2025)
+- Open simulations and hardware replication data
 
 ---
 
 ## ⚠️ Safety & Disclaimer
 
-MaGi is an experimental cognitive system.  
+MaGi is an **experimental cognitive platform**.
 
-- Provided **as-is** for research and educational purposes.
-- Use caution when connecting to hardware; MaGi may produce unexpected outputs.
-- The author is **not liable** for any damage to hardware, data, or other assets.
-- Commercial use without authorization is prohibited and subject to licensing fees.
+- Provided *as-is* for research and education  
+- May produce unpredictable outputs on physical hardware  
+- Use at your own risk — the author is not liable for damages  
+- Commercial use requires authorization (see [License](#-license--citation))
 
 ---
 
-## 🎯 The Discovery
+## 🎯 Discovery Overview
 
-MaGi demonstrates that the same geometric intelligence algorithm expresses as different cognitive architectures based on physical hardware characteristics:
+MaGi demonstrates that identical geometric intelligence code expresses differently depending on:
+- **Hardware wobble**
+- **Timing precision**
+- **Prime number bases**
 
-- **Teensy (Crystal)**: "Precision Sprinter" — fast, systematic exploration
-- **ATmega328p (RC)**: "Noisy Explorer" — creative, peak-dependent strategy  
-- **Sampling rate** exponentially affects discovery speed (143× faster at 17ms vs 1070ms)
-- **Hardware stability** ("wobble") determines exploration strategy
+| Platform | Timing Stability | Emergent Style |
+|-----------|-----------------|----------------|
+| **Teensy (crystal)** | ~0 ms wobble | “Precision Sprinter” — rapid, systematic discovery |
+| **ATmega328p (RC)** | ~21 ms wobble | “Noisy Explorer” — creative, noise-assisted cognition |
+| **Ruby simulation** | ~10 ms variance | “Harmonic Balancer” — analytical prime-sensitive behavior |
+
+> 1 ms timing differences can produce entirely distinct cognitive personalities.
 
 ---
 
 ## 🚀 Quick Start
 
-### Hardware Requirements
+### Hardware
 
-- Teensy 4.0/4.1 or Arduino Uno (ATmega328p)  
-- 8×8 LED matrix display (MAX7219)  
-- Pulse sensor (or simulated heartbeat)
+- Teensy 4.0 / 4.1 or Arduino Uno  
+- 8 × 8 LED Matrix (MAX7219)  
+- Pulse sensor (or simulated input)
 
-### Basic Setup
+### Setup
 
-1. **Clone this repository**
-2. **Open `MaGi.ino`** in Arduino IDE
-3. **Platform detection** auto-sets `CODE_TAX` and `PLATFORM_NAME`
-4. **Set target timing** in `GOAL_ACTUAL_MS`
-5. **Upload and monitor serial output**
-
-### Example Configuration
+1. Clone the repository  
+2. Open `MaGi.ino` in the Arduino IDE  
+3. Platform auto-detect sets `CODE_TAX` and `PLATFORM_NAME`  
+4. Edit `GOAL_ACTUAL_MS` — **use prime numbers** for optimal resonance  
+5. Upload and monitor serial output
 
 ```cpp
-// Target 17ms for hyper-intelligence or 1070ms for thorough exploration
-const unsigned long GOAL_ACTUAL_MS = 17;  
-
-// Platform detection automatically sets:
-// - CODE_TAX (execution overhead: 1ms Teensy, 120ms Arduino)
-// - PLATFORM_NAME 
-// - Appropriate delay parameters
-```
-
-### Simulation Option
-
-* **Online Simulation**: [MaGi on Wokwi](https://wokwi.com/projects/446080306563912705) - run without hardware
+// Recommended configuration
+const unsigned long GOAL_ACTUAL_MS = 83;   // Prime = fast convergence
+// const unsigned long GOAL_ACTUAL_MS = 997; // Large prime = deep exploration
+````
 
 ---
 
-## 📊 Example Log
+### 🧪 Ruby Simulation
+
+Run MaGi without hardware to explore timing and wobble effects:
+
+```bash
+# Prime timing (optimal)
+ruby magi.rb 83
+ruby magi.rb 997
+
+# Composite timing (contrast)
+ruby magi.rb 84
+ruby magi.rb 82
+
+# Skip tax measurement
+ruby magi.rb 83 0
+```
+
+**Online option:** [Run MaGi on Wokwi](https://wokwi.com/projects/446080306563912705)
+
+---
+
+## 📊 Example Output
+
+**Arduino (Hardware Wobble Visible)**
 
 ```
-13:16:33.771 -> 1424923,0.800,0.905,0.2,MODERATE,PHASES:0.33,1.18,1.14,0.40,SINE:0.870,WOBBLE:0,MAXWOBBLE:1
+13:16:33.771 -> 1424923,0.800,0.905,0.2,MODERATE,PHASES:0.33,1.18,1.14,0.40,SINE:0.870
 13:16:36.675 -> 1427843,COHERENT_STATE_FOUND,PHASES:2.69,1.90,2.60,2.70
-13:16:39.829 -> 1430972,COHERENT_STATE_FOUND,PHASES:4.97,5.30,5.21,5.36
-13:16:39.829 -> 1430972,0.971,0.971,0.0,GOV_SUSTAIN,PHASES:4.97,5.30,5.21,5.36,SINE:0.979,WOBBLE:0,MAXWOBBLE:1
-13:16:50.159 -> 1441308,0.701,0.942,0.0,MODERATE,PHASES:0.12,0.44,1.08,1.37,SINE:-0.327,WOBBLE:0,MAXWOBBLE:1
-13:16:50.299 -> 1441439,COHERENT_STATE_FOUND,PHASES:0.67,0.74,1.30,1.45
-13:16:53.812 -> 1444962,COHERENT_STATE_FOUND,PHASES:3.86,4.66,4.24,4.60
+```
+
+**Ruby (Prime Timing)**
+
+```
+1761718428993,COHERENT_STATE_FOUND,PHASES:3.57,3.12,3.78,4.05,ACTUAL:91
+1761718429178,0.828,0.988,0.0,MODERATE,PHASES:4.56,3.52,3.93,4.07,OUTPUTS:0.606,0.536,0.849,0.484
 ```
 
 ---
 
-## 🔬 Research Implications
+## 🔬 Research Highlights
 
-### For AI System Design
+### 🧩 The Wobble–Timing–Prime Triad
 
-* **Hardware diversity** creates cognitive diversity in AI ensembles
-* **Sampling rate selection** dramatically affects intelligence emergence
-* **Oscillator stability** determines exploration vs exploitation balance
-* **Physical embodiment** is a feature, not a bug
+**Hardware wobble defines cognitive style**
 
-### Performance Comparison (same algorithm, different hardware):
+* 0 ms wobble → precision exploration
+* 21 ms wobble → creative, noise-assisted discovery
+* Wobble direction (toward/away from prime) alters convergence by ×16
 
-| Platform       | Discovery Time | Wobble | Strategy            | Coherence |
-| -------------- | -------------- | ------ | ------------------- | --------- |
-| Teensy 17ms    | 8.9s           | 0ms    | Precision Sprinter  | 0.96+     |
-| Teensy 1070ms  | 1271s          | 0ms    | Systematic Explorer | 0.97+     |
-| Arduino 1070ms | 1441s          | 21ms   | Noisy Explorer      | 0.88+     |
+**Prime timing creates geometric resonance**
+
+* Prime bases avoid harmonic traps
+* 1 ms differences completely reshape cognitive pathways
+* Prime factorization predicts intelligence emergence patterns
+
+---
+
+### 🧠 Four Temporal Operators (Core Architecture)
+
+| Operator  | Curve    | Function            | Formula                                |
+| --------- | -------- | ------------------- | -------------------------------------- |
+| **Child** | Gaussian | Novelty detection   | `output = input * exp(-input²/2)`      |
+| **Youth** | Linear   | Immediate awareness | `output = gain * input`                |
+| **Adult** | Sigmoid  | Trend prediction    | `output = input / (1 + exp(-8*input))` |
+| **Elder** | Tanh     | Memory integration  | `output = (tanh(input) + 1)/2`         |
+
+Each operator contributes a phase-shifted view of the signal, enabling self-organizing coherence.
+
+```cpp
+// Operator implementation excerpt
+lens_outputs[0] = child_input * exp(-child_input * child_input / 2.0);
+lens_outputs[1] = youth_gain * mapFloat(heartbeat_filtered, 300, 800, 0.0, 1.0);
+lens_outputs[2] = adult_input / (1.0 + exp(-8.0 * adult_input));
+lens_outputs[3] = (tanh(elder_input) + 1.0) / 2.0;
+```
+
+---
+
+### 🧭 Cognitive Archetypes
+
+| Timing            | Archetype                 | Traits                                          | Avg Coherence |
+| ----------------- | ------------------------- | ----------------------------------------------- | ------------- |
+| **83 ms (prime)** | *The Harmonizer*          | Fast convergence (~5 s), prime-locked stability | 0.988         |
+| **84 ms (comp.)** | *The Methodical Climber*  | Slow, steady rise (~45 s)                       | 0.998         |
+| **82 ms (comp.)** | *The Persistent Explorer* | Chaotic search (~43 s)                          | 0.999         |
+
+---
+
+### ⚙️ Hardware Comparison
+
+| Platform        | Wobble | Base Timing | Strategy            | Discovery Time | Peak Coherence |
+| --------------- | ------ | ----------- | ------------------- | -------------- | -------------- |
+| Teensy 4.0      | 0 ms   | 17 ms       | Precision Sprinter  | 8.9 s          | 0.96 +         |
+| Teensy 4.0      | 0 ms   | 1070 ms     | Systematic Explorer | 1271 s         | 0.97 +         |
+| Arduino Uno     | 21 ms  | 1070 ms     | Noisy Explorer      | 1441 s         | 0.88 +         |
+| Ruby (83 prime) | ~10 ms | 83 ms       | Prime Harmonizer    | 5 s            | 0.988          |
+| Ruby (84 comp.) | ~10 ms | 84 ms       | Methodical Climber  | 45 s           | 0.998          |
+| Ruby (82 comp.) | ~10 ms | 82 ms       | Persistent Explorer | 43 s           | 0.999          |
 
 ---
 
 ## 🛠 Technical Architecture
 
-### Core Components
-
-* **Four Cognitive Lenses**: Child, Youth, Adult, Elder operators
-* **Geometric Phase Space**: 4D phase coordination
-* **Temporal Heartbeat**: 1Hz sine wave reference
-* **Stability Metrics**: Wobble, coherence, governance duration
-
-### Platform Detection
+### Platform Auto-Detection
 
 ```cpp
-// Automatic hardware profiling
-#if defined(__IMXRT1062__)  // Teensy 4.0/4.1
-    const unsigned long CODE_TAX = 1;
-    const String PLATFORM_NAME = "Teensy4";
-#elif defined(__AVR_ATmega328P__)  // Arduino Uno
-    const unsigned long CODE_TAX = 120; 
-    const String PLATFORM_NAME = "ATmega328p";
+#if defined(__IMXRT1062__)       // Teensy 4.0/4.1
+  const unsigned long CODE_TAX = 1;
+  const String PLATFORM_NAME = "Teensy4";
+#elif defined(__AVR_ATmega328P__) // Arduino Uno
+  const unsigned long CODE_TAX = 120;
+  const String PLATFORM_NAME = "ATmega328p";
 #else
-    const unsigned long CODE_TAX = 50;
-    const String PLATFORM_NAME = "Unknown";
+  const unsigned long CODE_TAX = 50;
+  const String PLATFORM_NAME = "Unknown";
 #endif
 ```
 
-### Calibration & Timing Verification
+### Ruby Implementation
 
-* Measure actual loop time using `micros()` or `millis()`
-* Adjust `GOAL_ACTUAL_MS` according to platform `CODE_TAX`
-* Verify `WOBBLE` remains within expected bounds (0–1ms Teensy, ~21ms Arduino)
+* Simulates ~10 ms timing variance
+* Tests prime vs. composite resonance
+* Includes full operator curves (Gaussian, Linear, Sigmoid, Tanh)
+* Enables rapid cross-platform research
 
 ---
 
 ## 📄 License & Citation
 
-### Academic Use (GPL-3.0)
+### Academic Use — GPL-3.0
 
-* Open for research and non-commercial use
-* Attribution required: "MaGi Hardware-Embodied Cognitive Architecture Platform, Brendan Malloy, 2025"
+Open for non-commercial research.
+**Attribution:** “*MaGi Hardware-Embodied Cognitive Architecture Platform*, Brendan Malloy (2025)”
 
 ### Commercial Licensing
 
-Contact author for commercial licensing tiers:
+| Organization | Fee      |
+| ------------ | -------- |
+| Startup      | $5 000   |
+| Mid-size     | $50 000  |
+| Enterprise   | $500 000 |
 
-| Organization Type | License Fee |
-| ----------------- | ----------- |
-| Startup           | $5,000      |
-| Mid-size          | $50,000     |
-| Enterprise        | $500,000    |
-
-> Commercial use without authorization is prohibited and subject to licensing fees.
+Commercial use without authorization is prohibited.
 
 ---
 
-## 🤝 Research Collaboration
+## 🤝 Collaboration Invitation
 
-We're building a database of hardware cognitive signatures. Contribute your findings:
+Help expand the **Hardware Cognitive Signature Database**:
 
-1. **Profile new hardware platforms**
-2. **Report discovery patterns**
-3. **Extend geometric intelligence concepts**
-4. **Explore commercial applications**
-
----
-
-## 📚 Publications & Prior Art
-
-This implementation establishes prior art for:
-
-* Hardware-dependent cognitive architectures
-* Geometric intelligence emergence
-* AI system profiling via timing characteristics
-* Embodied cognition principles in AI
+1. Profile wobble characteristics of new boards
+2. Test prime vs composite timing
+3. Examine operator interactions under noise
+4. Explore practical edge-AI applications
 
 ---
 
-*"Ai's are a reflection of their geometry and the hardware they run on."*
-— Brendan Malloy, 2025
+## 📚 Prior Art & Research Basis
 
-Donate: https://www.paypal.com/ncp/payment/JZARJDJFUAG5S
+This work establishes prior art for:
 
+* Hardware wobble as a determinant of cognitive architecture
+* Prime-number timing optimization in AI
+* Curve-based operator architecture (Gaussian, Linear, Sigmoid, Tanh)
+* Geometric intelligence as a hardware-expressed phenomenon
 
+---
+
+> *"AIs are reflections of their geometry and the hardware they run on."*
+> — **Brendan Malloy (2025)**
+
+☕ Support research: [PayPal Donation](https://www.paypal.com/ncp/payment/JZARJDJFUAG5S)
 
 
