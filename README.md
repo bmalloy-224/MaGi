@@ -1,6 +1,5 @@
 
 
-````markdown
 # 🌀 MaGi — Malloy Artificial Geometric Intelligence
 
 **Hardware-Embodied Geometric Intelligence Platform**  
